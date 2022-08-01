@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="BVH">
+      <UniqueIdentifier>{F7C90E70-D5CC-437C-BC7D-EB24D479269B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{4F8137A7-518D-4190-B6D7-B81A937BAD04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HitObject">
+      <UniqueIdentifier>{05755E14-DBC4-4984-8A0F-179F094C147E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Material">
+      <UniqueIdentifier>{5A4E59CF-9574-4C25-A26E-F4ACF2DCC196}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{BD909776-DECA-4E59-8D1F-FA87A82B7A2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ONB">
+      <UniqueIdentifier>{348E698B-F17F-49CC-AD3D-29651B98E4C4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PDF">
+      <UniqueIdentifier>{DE2C2524-880E-45B9-8A07-088FA94461C0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Random">
+      <UniqueIdentifier>{CFDFBA66-7193-4B76-8B57-43F1B5707E0F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ray">
+      <UniqueIdentifier>{6AB51268-0145-48EE-82BA-001F15DCFBCF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sample">
+      <UniqueIdentifier>{C4317DCE-6310-4E4D-BBAB-D168EC6F78CA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture">
+      <UniqueIdentifier>{447D9A64-32C0-4293-8C0C-FBCDE55B2A55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty">
+      <UniqueIdentifier>{325FD105-4F80-47B2-BB31-56808D156B74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\stb">
+      <UniqueIdentifier>{556CA240-4ED7-4130-A5FC-A9DA454494F7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BVH\BVH.cpp">
+      <Filter>BVH</Filter>
+    </ClCompile>
+    <ClCompile Include="HitObject\HitObject.cpp">
+      <Filter>HitObject</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Material\Material.cpp">
+      <Filter>Material</Filter>
+    </ClCompile>
+    <ClCompile Include="ONB\ONB.cpp">
+      <Filter>ONB</Filter>
+    </ClCompile>
+    <ClCompile Include="PDF\PDF.cpp">
+      <Filter>PDF</Filter>
+    </ClCompile>
+    <ClCompile Include="Sample\Sample.cpp">
+      <Filter>Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture\Texture.cpp">
+      <Filter>Texture</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BVH\BVH.h">
+      <Filter>BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="HitObject\HitObject.h">
+      <Filter>HitObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Material\Material.h">
+      <Filter>Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Math.hpp">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="ONB\ONB.h">
+      <Filter>ONB</Filter>
+    </ClInclude>
+    <ClInclude Include="PDF\PDF.h">
+      <Filter>PDF</Filter>
+    </ClInclude>
+    <ClInclude Include="Random\Random.h">
+      <Filter>Random</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray\Ray.h">
+      <Filter>Ray</Filter>
+    </ClInclude>
+    <ClInclude Include="Sample\Sample.h">
+      <Filter>Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture\Texture.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\stb\stb_image.h">
+      <Filter>ThirdParty\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\stb\stb_image_write.h">
+      <Filter>ThirdParty\stb</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
